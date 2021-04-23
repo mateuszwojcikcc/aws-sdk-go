@@ -9,9 +9,9 @@
 package mediastoredataiface
 
 import (
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/service/mediastoredata"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/mediastoredata"
 )
 
 // MediaStoreDataAPI provides an interface to enable mocking the

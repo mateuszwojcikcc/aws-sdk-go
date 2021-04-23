@@ -4,9 +4,9 @@ package s3manageriface
 import (
 	"io"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/service/s3"
-	"github.com/aws/mateuszwojcikcc/service/s3/s3manager"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/s3"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/s3/s3manager"
 )
 
 var _ DownloaderAPI = (*s3manager.Downloader)(nil)

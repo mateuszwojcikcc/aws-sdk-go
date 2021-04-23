@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	awsStrings "github.com/aws/mateuszwojcikcc/internal/strings"
-	"github.com/aws/mateuszwojcikcc/private/protocol"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	awsStrings "github.com/mateuszwojcikcc/aws-sdk-go/internal/strings"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol"
 )
 
 // UnmarshalHandler is a named request handler for unmarshaling rest protocol requests

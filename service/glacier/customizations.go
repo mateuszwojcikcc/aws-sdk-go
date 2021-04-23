@@ -4,8 +4,8 @@ import (
 	"encoding/hex"
 	"reflect"
 
-	"github.com/aws/mateuszwojcikcc/aws/awsutil"
-	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awsutil"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
 )
 
 var (

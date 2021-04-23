@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
 )
 
 // EscapeMode is the mode that should be use for escaping a value

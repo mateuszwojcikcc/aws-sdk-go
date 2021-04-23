@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/aws/client/metadata"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/client/metadata"
 )
 
 func TestRequestIsErrorThrottle(t *testing.T) {

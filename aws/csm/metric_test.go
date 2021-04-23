@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
 )
 
 func TestTruncateString(t *testing.T) {

@@ -3,7 +3,7 @@
 package signer
 
 import (
-	"github.com/aws/mateuszwojcikcc/private/protocol"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol"
 )
 
 const (

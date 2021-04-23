@@ -6,14 +6,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/private/protocol"
-	"github.com/aws/mateuszwojcikcc/private/protocol/ec2query"
-	"github.com/aws/mateuszwojcikcc/private/protocol/jsonrpc"
-	"github.com/aws/mateuszwojcikcc/private/protocol/query"
-	"github.com/aws/mateuszwojcikcc/private/protocol/restjson"
-	"github.com/aws/mateuszwojcikcc/private/protocol/restxml"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/ec2query"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/query"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/restjson"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/restxml"
 )
 
 type mockCloser struct {

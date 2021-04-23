@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/internal/sdktesting"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/sdktesting"
 )
 
 func TestAddHostExecEnvUserAgentHander(t *testing.T) {

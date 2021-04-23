@@ -6,9 +6,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/internal/sdkio"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/sdkio"
 )
 
 func copyMultipartStatusOKUnmarhsalError(r *request.Request) {

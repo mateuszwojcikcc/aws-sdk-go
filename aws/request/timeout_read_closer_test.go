@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
 )
 
 type testReader struct {

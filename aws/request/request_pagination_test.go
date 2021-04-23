@@ -4,13 +4,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/awstesting"
-	"github.com/aws/mateuszwojcikcc/awstesting/unit"
-	"github.com/aws/mateuszwojcikcc/service/dynamodb"
-	"github.com/aws/mateuszwojcikcc/service/route53"
-	"github.com/aws/mateuszwojcikcc/service/s3"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting/unit"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/dynamodb"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/route53"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/s3"
 )
 
 // Use DynamoDB methods for simplicity

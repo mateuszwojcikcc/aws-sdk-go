@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws/credentials"
-	"github.com/aws/mateuszwojcikcc/aws/endpoints"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/credentials"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/endpoints"
 )
 
 // UseServiceDefaultRetries instructs the config to use the service's own

@@ -9,9 +9,9 @@
 package augmentedairuntimeiface
 
 import (
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/service/augmentedairuntime"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/augmentedairuntime"
 )
 
 // AugmentedAIRuntimeAPI provides an interface to enable mocking the

@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/internal/sdkio"
-	"github.com/aws/mateuszwojcikcc/service/s3"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/sdkio"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/s3"
 )
 
 func TestInteg_SelectObjectContent(t *testing.T) {

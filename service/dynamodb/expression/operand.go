@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/aws/mateuszwojcikcc/service/dynamodb"
-	"github.com/aws/mateuszwojcikcc/service/dynamodb/dynamodbattribute"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/dynamodb"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/dynamodb/dynamodbattribute"
 )
 
 // ValueBuilder represents an item attribute value operand and implements the

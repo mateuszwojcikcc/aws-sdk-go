@@ -5,7 +5,7 @@ package awsutil
 import (
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
 )
 
 type testStruct struct {

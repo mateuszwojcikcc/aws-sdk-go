@@ -1,4 +1,4 @@
-module github.com/aws/mateuszwojcikcc
+module github.com/mateuszwojcikcc/aws-sdk-go
 
 require (
 	github.com/jmespath/go-jmespath v0.4.0

@@ -8,8 +8,8 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/service/dynamodb"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/dynamodb"
 )
 
 // ConvertToMap accepts a map[string]interface{} or struct and converts it to a

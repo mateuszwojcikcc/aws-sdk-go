@@ -9,9 +9,9 @@
 package iotsecuretunnelingiface
 
 import (
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/service/iotsecuretunneling"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/iotsecuretunneling"
 )
 
 // IoTSecureTunnelingAPI provides an interface to enable mocking the

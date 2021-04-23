@@ -7,10 +7,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/aws/session"
-	"github.com/aws/mateuszwojcikcc/service/polly"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/session"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/polly"
 )
 
 var _ time.Duration

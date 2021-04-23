@@ -11,14 +11,14 @@ import (
 	"bytes"
 	"encoding/xml"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/credentials"
-	"github.com/aws/mateuszwojcikcc/aws/endpoints"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/aws/session"
-	"github.com/aws/mateuszwojcikcc/private/protocol/restxml"
-	"github.com/aws/mateuszwojcikcc/service/cloudfront"
-	"github.com/aws/mateuszwojcikcc/service/s3"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/credentials"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/endpoints"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/session"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/restxml"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/cloudfront"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/s3"
 )
 
 var (

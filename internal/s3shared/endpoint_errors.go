@@ -3,8 +3,8 @@ package s3shared
 import (
 	"fmt"
 
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/internal/s3shared/arn"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/s3shared/arn"
 )
 
 const (

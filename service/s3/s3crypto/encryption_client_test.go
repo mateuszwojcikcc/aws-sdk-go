@@ -9,13 +9,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/awstesting"
-	"github.com/aws/mateuszwojcikcc/awstesting/unit"
-	"github.com/aws/mateuszwojcikcc/service/kms"
-	"github.com/aws/mateuszwojcikcc/service/s3"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting/unit"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/kms"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/s3"
 )
 
 func TestDefaultConfigValues(t *testing.T) {

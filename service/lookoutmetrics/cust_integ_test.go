@@ -5,7 +5,7 @@ package lookoutmetrics
 import (
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/awstesting/integration"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting/integration"
 )
 
 func TestInteg_ListAnomalyDetectors(t *testing.T) {

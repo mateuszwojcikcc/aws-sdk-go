@@ -1,10 +1,10 @@
 package s3crypto
 
 import (
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/service/kms"
-	"github.com/aws/mateuszwojcikcc/service/kms/kmsiface"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/kms"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/kms/kmsiface"
 )
 
 const (

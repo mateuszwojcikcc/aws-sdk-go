@@ -16,8 +16,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/aws/mateuszwojcikcc/private/model/api"
-	"github.com/aws/mateuszwojcikcc/private/util"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/model/api"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/util"
 )
 
 // TestSuiteTypeInput input test
@@ -119,11 +119,11 @@ var extraImports = []string{
 	"reflect",
 	"net/url",
 	"",
-	"github.com/aws/mateuszwojcikcc/awstesting",
-	"github.com/aws/mateuszwojcikcc/awstesting/unit",
-	"github.com/aws/mateuszwojcikcc/private/protocol",
-	"github.com/aws/mateuszwojcikcc/private/protocol/xml/xmlutil",
-	"github.com/aws/mateuszwojcikcc/private/util",
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting",
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting/unit",
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol",
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/xml/xmlutil",
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/util",
 }
 
 func addImports(code string) string {

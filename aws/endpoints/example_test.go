@@ -3,11 +3,11 @@ package endpoints_test
 import (
 	"fmt"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/endpoints"
-	"github.com/aws/mateuszwojcikcc/aws/session"
-	"github.com/aws/mateuszwojcikcc/service/s3"
-	"github.com/aws/mateuszwojcikcc/service/sqs"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/endpoints"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/session"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/s3"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/sqs"
 )
 
 func ExampleEnumPartitions() {

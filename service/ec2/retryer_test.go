@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/client"
-	"github.com/aws/mateuszwojcikcc/awstesting/unit"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/client"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting/unit"
 )
 
 func TestCustomRetryRules(t *testing.T) {

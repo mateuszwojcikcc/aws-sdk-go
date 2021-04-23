@@ -5,8 +5,8 @@ package ec2
 import (
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
 )
 
 // WaitUntilBundleTaskComplete uses the Amazon EC2 API operation

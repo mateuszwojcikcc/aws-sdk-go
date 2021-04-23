@@ -5,8 +5,8 @@ package emr
 import (
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
 )
 
 // WaitUntilClusterRunning uses the Amazon EMR API operation

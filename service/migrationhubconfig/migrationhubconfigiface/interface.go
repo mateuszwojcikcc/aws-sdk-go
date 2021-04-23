@@ -9,9 +9,9 @@
 package migrationhubconfigiface
 
 import (
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/service/migrationhubconfig"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/migrationhubconfig"
 )
 
 // MigrationHubConfigAPI provides an interface to enable mocking the

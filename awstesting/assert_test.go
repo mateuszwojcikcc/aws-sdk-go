@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/awstesting"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting"
 )
 
 func TestAssertJSON(t *testing.T) {

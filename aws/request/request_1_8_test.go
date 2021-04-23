@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/awstesting"
-	"github.com/aws/mateuszwojcikcc/awstesting/unit"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting/unit"
 )
 
 func TestResetBody_WithEmptyBody(t *testing.T) {

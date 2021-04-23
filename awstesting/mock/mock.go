@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/client"
-	"github.com/aws/mateuszwojcikcc/aws/client/metadata"
-	"github.com/aws/mateuszwojcikcc/aws/session"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/client"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/client/metadata"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/session"
 )
 
 // Session is a mock session which is used to hit the mock server

@@ -10,15 +10,15 @@ import (
 	"os"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/aws/client"
-	"github.com/aws/mateuszwojcikcc/aws/corehandlers"
-	"github.com/aws/mateuszwojcikcc/aws/credentials"
-	"github.com/aws/mateuszwojcikcc/aws/csm"
-	"github.com/aws/mateuszwojcikcc/aws/defaults"
-	"github.com/aws/mateuszwojcikcc/aws/endpoints"
-	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/client"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/corehandlers"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/credentials"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/csm"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/defaults"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/endpoints"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
 )
 
 const (

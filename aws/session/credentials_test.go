@@ -16,14 +16,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/credentials"
-	"github.com/aws/mateuszwojcikcc/aws/defaults"
-	"github.com/aws/mateuszwojcikcc/aws/endpoints"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/internal/sdktesting"
-	"github.com/aws/mateuszwojcikcc/internal/shareddefaults"
-	"github.com/aws/mateuszwojcikcc/service/sts"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/credentials"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/defaults"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/endpoints"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/sdktesting"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/shareddefaults"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/sts"
 )
 
 func newEc2MetadataServer(key, secret string, closeAfterGetCreds bool) *httptest.Server {

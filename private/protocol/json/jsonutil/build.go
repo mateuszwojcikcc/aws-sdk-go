@@ -12,8 +12,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/private/protocol"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol"
 )
 
 var timeType = reflect.ValueOf(time.Time{}).Type()

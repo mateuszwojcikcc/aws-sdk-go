@@ -9,9 +9,9 @@
 package iot1clickdevicesserviceiface
 
 import (
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/service/iot1clickdevicesservice"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/iot1clickdevicesservice"
 )
 
 // IoT1ClickDevicesServiceAPI provides an interface to enable mocking the

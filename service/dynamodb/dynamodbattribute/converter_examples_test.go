@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/aws/mateuszwojcikcc/service/dynamodb/dynamodbattribute"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/dynamodb/dynamodbattribute"
 )
 
 func ExampleConvertTo() {

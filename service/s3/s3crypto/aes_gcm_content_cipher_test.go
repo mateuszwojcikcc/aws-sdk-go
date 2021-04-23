@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/awstesting/unit"
-	"github.com/aws/mateuszwojcikcc/service/kms"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting/unit"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/kms"
 )
 
 func TestAESGCMContentCipherBuilder(t *testing.T) {

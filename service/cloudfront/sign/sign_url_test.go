@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/awstesting/mock"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting/mock"
 )
 
 var testSignTime = time.Date(2009, time.November, 10, 23, 0, 0, 0, time.UTC)

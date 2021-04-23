@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/internal/ini"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/ini"
 )
 
 // TestFuzz is used to test for crashes and not validity of the input

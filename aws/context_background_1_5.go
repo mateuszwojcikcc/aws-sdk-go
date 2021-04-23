@@ -3,7 +3,7 @@
 package aws
 
 import (
-	"github.com/aws/mateuszwojcikcc/internal/context"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/context"
 )
 
 // BackgroundContext returns a context that will never be canceled, has no

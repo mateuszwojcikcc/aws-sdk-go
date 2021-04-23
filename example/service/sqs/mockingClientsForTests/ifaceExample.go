@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/session"
-	"github.com/aws/mateuszwojcikcc/service/sqs"
-	"github.com/aws/mateuszwojcikcc/service/sqs/sqsiface"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/session"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/sqs"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/sqs/sqsiface"
 )
 
 func main() {

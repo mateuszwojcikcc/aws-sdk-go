@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws/credentials"
-	"github.com/aws/mateuszwojcikcc/aws/endpoints"
-	"github.com/aws/mateuszwojcikcc/internal/ini"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/credentials"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/endpoints"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/ini"
 )
 
 var (

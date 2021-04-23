@@ -1,7 +1,7 @@
 package credentials
 
 import (
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
 )
 
 // StaticProviderName provides a name of Static provider

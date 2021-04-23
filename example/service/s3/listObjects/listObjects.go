@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aws/mateuszwojcikcc/aws/session"
-	"github.com/aws/mateuszwojcikcc/service/s3"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/session"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/s3"
 )
 
 // Lists all objects in a bucket using pagination

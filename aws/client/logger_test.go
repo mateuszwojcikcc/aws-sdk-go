@@ -9,11 +9,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/client/metadata"
-	"github.com/aws/mateuszwojcikcc/aws/corehandlers"
-	"github.com/aws/mateuszwojcikcc/aws/credentials"
-	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/client/metadata"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/corehandlers"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/credentials"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
 )
 
 type mockCloser struct {

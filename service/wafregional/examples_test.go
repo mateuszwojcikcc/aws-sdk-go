@@ -7,11 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/aws/session"
-	"github.com/aws/mateuszwojcikcc/service/waf"
-	"github.com/aws/mateuszwojcikcc/service/wafregional"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/session"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/waf"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/wafregional"
 )
 
 var _ time.Duration

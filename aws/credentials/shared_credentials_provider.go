@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/internal/ini"
-	"github.com/aws/mateuszwojcikcc/internal/shareddefaults"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/ini"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/shareddefaults"
 )
 
 // SharedCredsProviderName provides a name of SharedCreds provider

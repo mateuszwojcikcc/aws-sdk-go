@@ -14,10 +14,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/awstesting/integration"
-	"github.com/aws/mateuszwojcikcc/service/kinesis"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting/integration"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/kinesis"
 	"golang.org/x/net/http2"
 )
 

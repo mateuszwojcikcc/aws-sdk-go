@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/aws/credentials"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/credentials"
 )
 
 func TestProvider_Passthrough(t *testing.T) {

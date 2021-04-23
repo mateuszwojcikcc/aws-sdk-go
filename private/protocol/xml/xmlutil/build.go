@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/private/protocol"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol"
 )
 
 // BuildXML will serialize params into an xml.Encoder. Error will be returned

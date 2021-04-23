@@ -1,7 +1,7 @@
 package defaults
 
 import (
-	"github.com/aws/mateuszwojcikcc/internal/shareddefaults"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/shareddefaults"
 )
 
 // SharedCredentialsFilename returns the SDK's default file path

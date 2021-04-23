@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
 )
 
 const (

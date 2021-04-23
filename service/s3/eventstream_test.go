@@ -15,16 +15,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
-	"github.com/aws/mateuszwojcikcc/aws/corehandlers"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/awstesting/unit"
-	"github.com/aws/mateuszwojcikcc/private/protocol"
-	"github.com/aws/mateuszwojcikcc/private/protocol/eventstream"
-	"github.com/aws/mateuszwojcikcc/private/protocol/eventstream/eventstreamapi"
-	"github.com/aws/mateuszwojcikcc/private/protocol/eventstream/eventstreamtest"
-	"github.com/aws/mateuszwojcikcc/private/protocol/restxml"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/corehandlers"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting/unit"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/eventstream"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/eventstream/eventstreamapi"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/eventstream/eventstreamtest"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/restxml"
 )
 
 var _ time.Time

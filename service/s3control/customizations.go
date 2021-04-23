@@ -1,10 +1,10 @@
 package s3control
 
 import (
-	"github.com/aws/mateuszwojcikcc/aws/client"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/internal/s3shared/arn"
-	"github.com/aws/mateuszwojcikcc/internal/s3shared/s3err"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/client"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/s3shared/arn"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/s3shared/s3err"
 )
 
 func init() {

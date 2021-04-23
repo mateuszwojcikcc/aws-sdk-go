@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/private/protocol/eventstream"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/eventstream"
 )
 
 // AssertMessageEqual compares to event stream messages, and determines if they

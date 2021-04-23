@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/mateuszwojcikcc/aws/credentials"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/credentials"
 )
 
 type periodicBadCredentials struct {

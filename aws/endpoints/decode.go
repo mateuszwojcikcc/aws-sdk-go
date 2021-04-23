@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
 )
 
 type modelDefinition map[string]json.RawMessage

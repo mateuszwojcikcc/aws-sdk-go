@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/aws/mateuszwojcikcc/internal/smithytesting/xml"
+	"github.com/mateuszwojcikcc/aws-sdk-go/internal/smithytesting/xml"
 )
 
 // XMLEqual asserts two XML documents by sorting the XML and comparing the

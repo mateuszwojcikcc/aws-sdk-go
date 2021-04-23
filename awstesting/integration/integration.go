@@ -11,8 +11,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/session"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/session"
 )
 
 // Session is a shared session for all integration tests to use.

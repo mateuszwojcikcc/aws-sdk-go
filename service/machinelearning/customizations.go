@@ -3,7 +3,7 @@ package machinelearning
 import (
 	"net/url"
 
-	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
 )
 
 func init() {

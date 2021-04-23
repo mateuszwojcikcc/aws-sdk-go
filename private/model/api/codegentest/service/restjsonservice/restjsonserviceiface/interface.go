@@ -9,9 +9,9 @@
 package restjsonserviceiface
 
 import (
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/private/model/api/codegentest/service/restjsonservice"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/model/api/codegentest/service/restjsonservice"
 )
 
 // RESTJSONServiceAPI provides an interface to enable mocking the

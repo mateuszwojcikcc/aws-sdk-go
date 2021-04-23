@@ -5,7 +5,7 @@ package v4
 import (
 	"net/http"
 
-	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
 )
 
 func requestContext(r *http.Request) aws.Context {

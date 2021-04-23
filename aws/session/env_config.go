@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/credentials"
-	"github.com/aws/mateuszwojcikcc/aws/defaults"
-	"github.com/aws/mateuszwojcikcc/aws/endpoints"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/credentials"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/defaults"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/endpoints"
 )
 
 // EnvProviderName provides a name of the provider when config is loaded from environment.

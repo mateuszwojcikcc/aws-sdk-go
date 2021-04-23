@@ -7,13 +7,13 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/awstesting"
-	"github.com/aws/mateuszwojcikcc/private/protocol/json/jsonutil"
-	"github.com/aws/mateuszwojcikcc/private/protocol/jsonrpc"
-	"github.com/aws/mateuszwojcikcc/service/dynamodb"
-	"github.com/aws/mateuszwojcikcc/service/dynamodb/dynamodbattribute"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/awstesting"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/json/jsonutil"
+	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/dynamodb"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/dynamodb/dynamodbattribute"
 )
 
 func BenchmarkJSONRPCBuild_Simple_dynamodbPutItem(b *testing.B) {

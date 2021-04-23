@@ -3,8 +3,8 @@ package lexmodelsv2
 import (
 	"strings"
 
-	"github.com/aws/mateuszwojcikcc/aws/client"
-	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/client"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
 )
 
 func init() {

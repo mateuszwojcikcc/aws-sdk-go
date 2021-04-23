@@ -9,9 +9,9 @@
 package pinpointsmsvoiceiface
 
 import (
-	"github.com/aws/mateuszwojcikcc/aws"
-	"github.com/aws/mateuszwojcikcc/aws/request"
-	"github.com/aws/mateuszwojcikcc/service/pinpointsmsvoice"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws"
+	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
+	"github.com/mateuszwojcikcc/aws-sdk-go/service/pinpointsmsvoice"
 )
 
 // PinpointSMSVoiceAPI provides an interface to enable mocking the

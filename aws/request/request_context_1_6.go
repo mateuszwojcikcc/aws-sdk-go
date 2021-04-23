@@ -2,7 +2,7 @@
 
 package request
 
-import "github.com/aws/mateuszwojcikcc/aws"
+import "github.com/mateuszwojcikcc/aws-sdk-go/aws"
 
 // setContext updates the Request to use the passed in context for cancellation.
 // Context will also be used for request retry delay.
