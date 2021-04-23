@@ -114,7 +114,9 @@ var SendHandler = request.NamedHandler{
 			handleSendError(r, err)
 		}
 
-		r.BuildBufferPut(r.BuildBuffer)
+		if r.BuildBuffer != nil {
+			r.BuildBufferPut(r.BuildBuffer)
+		}
 	},
 }
 
