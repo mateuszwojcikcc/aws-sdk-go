@@ -1,6 +1,6 @@
 package sts
 
-import "github.com/aws/aws-sdk-go/aws/request"
+import "github.com/aws/mateuszwojcikcc/aws/request"
 
 func init() {
 	initRequest = customizeRequest

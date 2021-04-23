@@ -9,9 +9,9 @@
 package fisiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/fis"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/service/fis"
 )
 
 // FISAPI provides an interface to enable mocking the

@@ -11,11 +11,11 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	sdkclient "github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/ec2"
+	"github.com/aws/mateuszwojcikcc/aws"
+	sdkclient "github.com/aws/mateuszwojcikcc/aws/client"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/awstesting/unit"
+	"github.com/aws/mateuszwojcikcc/service/ec2"
 )
 
 func TestCopySnapshotPresignedURL(t *testing.T) {

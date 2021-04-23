@@ -5,11 +5,11 @@ package ssooidc
 import (
 	"fmt"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/awsutil"
+	"github.com/aws/mateuszwojcikcc/aws/credentials"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/private/protocol"
 )
 
 const opCreateToken = "CreateToken"

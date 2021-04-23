@@ -1,7 +1,7 @@
 package protocol
 
 import (
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aws/mateuszwojcikcc/aws/request"
 	"net"
 	"strconv"
 	"strings"

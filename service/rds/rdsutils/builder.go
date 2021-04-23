@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/url"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/credentials"
+	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/aws/mateuszwojcikcc/aws/credentials"
 )
 
 // ConnectionFormat is the type of connection that will be

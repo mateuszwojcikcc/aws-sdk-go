@@ -8,7 +8,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/mateuszwojcikcc/aws"
 )
 
 func TestMaxSlicePool(t *testing.T) {

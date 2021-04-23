@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/mateuszwojcikcc/aws"
 )
 
 // StreamAudioFromReader will stream bytes from the provided input io.Reader to

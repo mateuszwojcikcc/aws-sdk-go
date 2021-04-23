@@ -3,7 +3,7 @@ package arn
 import (
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws/arn"
+	"github.com/aws/mateuszwojcikcc/aws/arn"
 )
 
 // AccessPointARN provides representation

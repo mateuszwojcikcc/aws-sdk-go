@@ -4,7 +4,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aws/mateuszwojcikcc/aws/request"
 )
 
 // UnmarshalDiscardBodyHandler is a named request handler to empty and close a response's body

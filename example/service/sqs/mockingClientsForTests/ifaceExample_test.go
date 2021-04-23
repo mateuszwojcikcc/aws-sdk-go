@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/service/sqs"
-	"github.com/aws/aws-sdk-go/service/sqs/sqsiface"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/service/sqs"
+	"github.com/aws/mateuszwojcikcc/service/sqs/sqsiface"
 )
 
 type mockedReceiveMsgs struct {

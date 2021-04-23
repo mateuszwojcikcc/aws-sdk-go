@@ -3,12 +3,12 @@
 package elasticbeanstalk
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/private/protocol/query"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/client"
+	"github.com/aws/mateuszwojcikcc/aws/client/metadata"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/aws/signer/v4"
+	"github.com/aws/mateuszwojcikcc/private/protocol/query"
 )
 
 // ElasticBeanstalk provides the API operation methods for making requests to

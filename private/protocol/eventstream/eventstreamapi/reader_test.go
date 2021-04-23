@@ -6,10 +6,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/eventstream"
-	"github.com/aws/aws-sdk-go/private/protocol/restjson"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/private/protocol"
+	"github.com/aws/mateuszwojcikcc/private/protocol/eventstream"
+	"github.com/aws/mateuszwojcikcc/private/protocol/restjson"
 )
 
 var eventMessageTypeHeader = eventstream.Header{

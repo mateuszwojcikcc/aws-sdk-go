@@ -9,12 +9,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting/integration"
-	"github.com/aws/aws-sdk-go/service/waf"
-	"github.com/aws/aws-sdk-go/service/wafregional"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/awstesting/integration"
+	"github.com/aws/mateuszwojcikcc/service/waf"
+	"github.com/aws/mateuszwojcikcc/service/wafregional"
 )
 
 var _ aws.Config

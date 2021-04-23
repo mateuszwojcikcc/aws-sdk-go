@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/kms"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3crypto"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/session"
+	"github.com/aws/mateuszwojcikcc/service/kms"
+	"github.com/aws/mateuszwojcikcc/service/s3"
+	"github.com/aws/mateuszwojcikcc/service/s3/s3crypto"
 )
 
 // ExampleNewEncryptionClientV2_migration00 provides a migration example for how users can migrate from the V1

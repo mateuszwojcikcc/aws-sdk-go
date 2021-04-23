@@ -5,8 +5,8 @@ package autoscaling
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/request"
 )
 
 // WaitUntilGroupExists uses the Auto Scaling API operation

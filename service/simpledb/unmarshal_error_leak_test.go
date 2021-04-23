@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/awstesting"
 )
 
 func TestUnmarhsalErrorLeak(t *testing.T) {

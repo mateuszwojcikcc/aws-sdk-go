@@ -5,8 +5,8 @@ package elbv2
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/request"
 )
 
 // WaitUntilLoadBalancerAvailable uses the Elastic Load Balancing v2 API operation

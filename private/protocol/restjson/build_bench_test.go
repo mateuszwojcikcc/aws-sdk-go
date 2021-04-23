@@ -8,13 +8,13 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/private/protocol/restjson"
-	"github.com/aws/aws-sdk-go/service/elastictranscoder"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/credentials"
+	"github.com/aws/mateuszwojcikcc/aws/endpoints"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/aws/session"
+	"github.com/aws/mateuszwojcikcc/private/protocol/restjson"
+	"github.com/aws/mateuszwojcikcc/service/elastictranscoder"
 )
 
 var (

@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
+	"github.com/aws/mateuszwojcikcc/aws/credentials"
+	"github.com/aws/mateuszwojcikcc/aws/signer/v4"
 )
 
 // BuildAuthToken will return an authorization token used as the password for a DB

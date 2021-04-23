@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/internal/sdkio"
+	"github.com/aws/mateuszwojcikcc/internal/sdkio"
 )
 
 func TestOffsetReaderRead(t *testing.T) {

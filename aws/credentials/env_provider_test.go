@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/internal/sdktesting"
+	"github.com/aws/mateuszwojcikcc/internal/sdktesting"
 )
 
 func TestEnvProviderRetrieve(t *testing.T) {

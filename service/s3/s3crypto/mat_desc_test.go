@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/mateuszwojcikcc/aws"
 )
 
 func TestEncodeMaterialDescription(t *testing.T) {

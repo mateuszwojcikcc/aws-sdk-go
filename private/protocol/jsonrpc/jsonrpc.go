@@ -6,10 +6,10 @@ package jsonrpc
 //go:generate go run -tags codegen ../../../private/model/cli/gen-protocol-tests ../../../models/protocol_tests/output/json.json unmarshal_test.go
 
 import (
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol/json/jsonutil"
-	"github.com/aws/aws-sdk-go/private/protocol/rest"
+	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/private/protocol/json/jsonutil"
+	"github.com/aws/mateuszwojcikcc/private/protocol/rest"
 )
 
 var emptyJSON = []byte("{}")

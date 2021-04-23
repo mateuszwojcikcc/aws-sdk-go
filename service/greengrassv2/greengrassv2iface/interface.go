@@ -9,9 +9,9 @@
 package greengrassv2iface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/greengrassv2"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/service/greengrassv2"
 )
 
 // GreengrassV2API provides an interface to enable mocking the

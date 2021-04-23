@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/awstesting"
+	"github.com/aws/mateuszwojcikcc/awstesting"
 )
 
 func TestNewSession_WithClientTLSCert(t *testing.T) {

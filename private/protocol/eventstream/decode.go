@@ -10,7 +10,7 @@ import (
 	"hash/crc32"
 	"io"
 
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/mateuszwojcikcc/aws"
 )
 
 // Decoder provides decoding of an Event Stream messages.

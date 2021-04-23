@@ -9,9 +9,9 @@
 package directoryserviceiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/directoryservice"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/service/directoryservice"
 )
 
 // DirectoryServiceAPI provides an interface to enable mocking the

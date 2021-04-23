@@ -3,7 +3,7 @@ package s3crypto
 import (
 	"crypto/rand"
 
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/mateuszwojcikcc/aws"
 )
 
 // CipherDataGenerator handles generating proper key and IVs of proper size for the

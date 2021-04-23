@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/iot"
-	"github.com/aws/aws-sdk-go/service/iotdataplane"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/session"
+	"github.com/aws/mateuszwojcikcc/service/iot"
+	"github.com/aws/mateuszwojcikcc/service/iotdataplane"
 )
 
 func ExampleIoTDataPlane_describeEndpoint() {

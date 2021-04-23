@@ -11,8 +11,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/aws/mateuszwojcikcc/private/protocol"
 )
 
 // UnmarshalXMLError unmarshals the XML error from the stream into the value

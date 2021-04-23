@@ -9,9 +9,9 @@
 package iotfleethubiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/iotfleethub"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/service/iotfleethub"
 )
 
 // IoTFleetHubAPI provides an interface to enable mocking the

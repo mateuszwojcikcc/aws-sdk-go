@@ -5,7 +5,7 @@ package api
 import (
 	"fmt"
 
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/aws/mateuszwojcikcc/private/protocol"
 )
 
 type examplesBuilder interface {

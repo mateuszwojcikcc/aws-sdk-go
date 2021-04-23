@@ -5,7 +5,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/aws/aws-sdk-go/internal/sdkio"
+	"github.com/aws/mateuszwojcikcc/internal/sdkio"
 )
 
 // ReadSeekCloser wraps a io.Reader returning a ReaderSeekerCloser. Allows the

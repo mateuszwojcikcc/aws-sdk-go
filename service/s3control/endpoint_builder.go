@@ -4,13 +4,13 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/s3shared"
-	"github.com/aws/aws-sdk-go/internal/s3shared/arn"
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/aws/mateuszwojcikcc/aws/endpoints"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/internal/s3shared"
+	"github.com/aws/mateuszwojcikcc/internal/s3shared/arn"
+	"github.com/aws/mateuszwojcikcc/private/protocol"
 )
 
 const (

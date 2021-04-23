@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
+	"github.com/aws/mateuszwojcikcc/aws/signer/v4"
+	"github.com/aws/mateuszwojcikcc/awstesting/unit"
 )
 
 func TestStandaloneSign(t *testing.T) {

@@ -18,15 +18,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/internal/sdkio"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/internal/s3testing"
-	"github.com/aws/aws-sdk-go/service/s3/s3manager"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/awstesting"
+	"github.com/aws/mateuszwojcikcc/awstesting/unit"
+	"github.com/aws/mateuszwojcikcc/internal/sdkio"
+	"github.com/aws/mateuszwojcikcc/service/s3"
+	"github.com/aws/mateuszwojcikcc/service/s3/internal/s3testing"
+	"github.com/aws/mateuszwojcikcc/service/s3/s3manager"
 )
 
 func dlLoggingSvc(data []byte) (*s3.S3, *[]string, *[]string) {

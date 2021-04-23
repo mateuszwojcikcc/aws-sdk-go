@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/service/dynamodb"
 )
 
 // expressionType specifies the type of Expression. Declaring this type is used

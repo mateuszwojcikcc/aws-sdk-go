@@ -4,9 +4,9 @@ import (
 	"encoding/xml"
 	"fmt"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol/xml/xmlutil"
+	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/private/protocol/xml/xmlutil"
 )
 
 const errorRespTag = "ErrorResponse"

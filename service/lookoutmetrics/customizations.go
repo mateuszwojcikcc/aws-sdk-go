@@ -3,8 +3,8 @@ package lookoutmetrics
 import (
 	"strings"
 
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aws/mateuszwojcikcc/aws/client"
+	"github.com/aws/mateuszwojcikcc/aws/request"
 )
 
 func init() {

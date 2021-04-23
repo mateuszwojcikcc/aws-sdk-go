@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aws/aws-sdk-go/internal/sdkmath"
+	"github.com/aws/mateuszwojcikcc/internal/sdkmath"
 )
 
 // Names of time formats supported by the SDK

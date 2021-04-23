@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/service/dynamodb"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/service/dynamodb"
 )
 
 // An Unmarshaler is an interface to provide custom unmarshaling of

@@ -1,7 +1,7 @@
 package v4
 
 import (
-	"github.com/aws/aws-sdk-go/internal/strings"
+	"github.com/aws/mateuszwojcikcc/internal/strings"
 )
 
 // validator houses a set of rule needed for validation of a

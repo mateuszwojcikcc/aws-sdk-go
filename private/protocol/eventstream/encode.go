@@ -10,7 +10,7 @@ import (
 	"hash/crc32"
 	"io"
 
-	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/mateuszwojcikcc/aws"
 )
 
 // Encoder provides EventStream message encoding.

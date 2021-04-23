@@ -95,8 +95,8 @@ import (
 	"fmt"
 	"plugin"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/credentials"
+	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/aws/mateuszwojcikcc/aws/credentials"
 )
 
 // ProviderSymbolName the symbol name the SDK will use to lookup the plugin

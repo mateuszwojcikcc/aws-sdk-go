@@ -5,7 +5,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/credentials"
+	"github.com/aws/mateuszwojcikcc/aws/credentials"
 )
 
 type credentialValueProvider interface {

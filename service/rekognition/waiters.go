@@ -5,8 +5,8 @@ package rekognition
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/request"
 )
 
 // WaitUntilProjectVersionRunning uses the Amazon Rekognition API operation

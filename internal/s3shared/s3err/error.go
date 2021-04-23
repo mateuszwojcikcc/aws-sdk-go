@@ -3,8 +3,8 @@ package s3err
 import (
 	"fmt"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aws/mateuszwojcikcc/aws/awserr"
+	"github.com/aws/mateuszwojcikcc/aws/request"
 )
 
 // RequestFailure provides additional S3 specific metadata for the request

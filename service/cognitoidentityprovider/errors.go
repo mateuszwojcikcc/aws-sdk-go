@@ -3,7 +3,7 @@
 package cognitoidentityprovider
 
 import (
-	"github.com/aws/aws-sdk-go/private/protocol"
+	"github.com/aws/mateuszwojcikcc/private/protocol"
 )
 
 const (

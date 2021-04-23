@@ -5,8 +5,8 @@ package ecs
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/request"
 )
 
 // WaitUntilServicesInactive uses the Amazon ECS API operation

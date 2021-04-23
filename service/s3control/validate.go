@@ -3,8 +3,8 @@ package s3control
 import (
 	"fmt"
 
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/s3shared"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/internal/s3shared"
 )
 
 // updateAccountIDWithARNHandler is a request named handler that is used to validate and populate the request account id

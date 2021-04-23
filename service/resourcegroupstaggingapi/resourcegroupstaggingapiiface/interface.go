@@ -9,9 +9,9 @@
 package resourcegroupstaggingapiiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/resourcegroupstaggingapi"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/service/resourcegroupstaggingapi"
 )
 
 // ResourceGroupsTaggingAPIAPI provides an interface to enable mocking the

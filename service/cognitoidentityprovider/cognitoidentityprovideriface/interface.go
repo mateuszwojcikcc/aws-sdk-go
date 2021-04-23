@@ -9,9 +9,9 @@
 package cognitoidentityprovideriface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/cognitoidentityprovider"
+	"github.com/aws/mateuszwojcikcc/aws"
+	"github.com/aws/mateuszwojcikcc/aws/request"
+	"github.com/aws/mateuszwojcikcc/service/cognitoidentityprovider"
 )
 
 // CognitoIdentityProviderAPI provides an interface to enable mocking the
