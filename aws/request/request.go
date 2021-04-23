@@ -92,6 +92,9 @@ type Request struct {
 	// to the HTTP request's body after the client has returned. This value is
 	// safe to use concurrently and wrap the input Body for each HTTP request.
 	safeBody *offsetReader
+
+	BuildBuffer    *bytes.Buffer
+	BuildBufferPut func(*bytes.Buffer)
 }
 
 // An Operation is the service API operation to be made.

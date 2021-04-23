@@ -6,6 +6,8 @@ package jsonrpc
 //go:generate go run -tags codegen ../../../private/model/cli/gen-protocol-tests ../../../models/protocol_tests/output/json.json unmarshal_test.go
 
 import (
+	"bytes"
+
 	"github.com/mateuszwojcikcc/aws-sdk-go/aws/awserr"
 	"github.com/mateuszwojcikcc/aws-sdk-go/aws/request"
 	"github.com/mateuszwojcikcc/aws-sdk-go/private/protocol/json/jsonutil"
@@ -39,8 +41,12 @@ var UnmarshalMetaHandler = request.NamedHandler{
 func Build(req *request.Request) {
 	var buf []byte
 	var err error
+
+	req.BuildBuffer = buildBufferPool.get()
+	req.BuildBufferPut = func(b *bytes.Buffer) { buildBufferPool.put(b) }
+
 	if req.ParamsFilled() {
-		buf, err = jsonutil.BuildJSON(req.Params)
+		buf, err = jsonutil.BuildJSONBuf(req.Params, req.BuildBuffer)
 		if err != nil {
 			req.Error = awserr.New(request.ErrCodeSerialization, "failed encoding JSON RPC request", err)
 			return

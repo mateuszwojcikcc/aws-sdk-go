@@ -20,6 +20,12 @@ var timeType = reflect.ValueOf(time.Time{}).Type()
 var byteSliceType = reflect.ValueOf([]byte{}).Type()
 
 // BuildJSON builds a JSON string for a given object v.
+func BuildJSONBuf(v interface{}, buf *bytes.Buffer) ([]byte, error) {
+	err := buildAny(reflect.ValueOf(v), buf, "")
+	return buf.Bytes(), err
+}
+
+// BuildJSON builds a JSON string for a given object v.
 func BuildJSON(v interface{}) ([]byte, error) {
 	var buf bytes.Buffer
 
